@@ -4,6 +4,7 @@ def __after_init_updatehub_ti():
     append_layers([ os.path.join(PLATFORM_ROOT_DIR, 'sources', p) for p in
                     [
                         'meta-arm/meta-arm',
+                        'meta-arm/meta-arm-toolchain',
                         'meta-ti',
                         'meta-updatehub-ti',
                     ]])
