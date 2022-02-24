@@ -5,7 +5,7 @@ def __after_init_updatehub_ti():
                     [
                         'meta-arm/meta-arm',
                         'meta-arm/meta-arm-toolchain',
-                        'meta-ti',
+                        'meta-ti/meta-ti-bsp',
                         'meta-updatehub-ti',
                     ]])
 
